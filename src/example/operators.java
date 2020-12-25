@@ -11,17 +11,17 @@ public class operators {
 	 * */
 	public static void main(String args[]) {
 	
-	int i=3, l=2;
-	int r1=i+l;
-	int r2=i-l;
-	int r3=i*l;
-	double r4=(double)i/l; //Explicit casting
-	int r5=i%l; //remainder
-	System.out.println(r1);
-	System.out.println(r2);
-	System.out.println(r3);
-	System.out.println(r4);
-	System.out.println(r5);
+//	int i=3, l=2;
+//	int r1=i+l;
+//	int r2=i-l;
+//	int r3=i*l;
+//	double r4=(double)i/l; //Explicit casting
+//	int r5=i%l; //remainder
+//	System.out.println(r1);
+//	System.out.println(r2);
+//	System.out.println(r3);
+//	System.out.println(r4);
+//	System.out.println(r5);
 	
 	//pre-increment-- ++n
 	//post increment-- n++
@@ -30,9 +30,11 @@ public class operators {
 	int n=7;
 	int pre=++n;
 	int post=n++;
-	System.out.println(m);
-	System.out.println(n);
-	System.out.println(pre);
-	System.out.println(post);
+	System.out.println(m);//9
+	System.out.println(n);//9
+	System.out.println(pre);//8
+	System.out.println(n);//9
+	System.out.println(post);// prev n = 8
+	System.out.println(n);//9
 	}
 }
